@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Metabank</h3>
+                </a>
+                
+                <div class="navbar-nav w-100">
+                    <a href="dashboard.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Elements</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="button.html" class="dropdown-item">User Identification Key</a>
+                            <a href="typography.html" class="dropdown-item">Loan Report</a>
+                            <a href="element.html" class="dropdown-item">Customer Report</a>
+                        </div>
+                    </div>
+                    <a href="widget.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
+                    
+                    
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="d-none d-md-flex ms-4">
+                    <input class="form-control bg-dark border-0" type="search" placeholder="Search">
+                </form>
+                <div class="navbar-nav align-items-center ms-auto">
+                    <div class="nav-item dropdown">
+                        <a href="https://blue-violet-2747.on.fleek.co/insurance/Insurance.html" class="nav-link button">
+                            <i class="fa fa-envelope me-lg-2"></i>
+                            <span class="d-none d-lg-inline-flex">Message</span>
+                            
+                        </a>
+                        
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fa fa-bell me-lg-2"></i>
+                            <span class="d-none d-lg-inline-flex">Notification</span>
+                        </a>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png?ga=GA1.1.2012325925.1694419275" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex">User Profile</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            <a href=" https://dark-block-3527.on.fleek.co/profile-card-form-js-main/" class="dropdown-item">My Profile</a>
+                            <a href="#" class="dropdown-item">Settings</a>
+                            <a href="index.html" class="dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+
+            <!-- Widget Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <h6 class="mb-0">Employee Monthly Target</h6>
+                                <a href="">Show All</a>
+                            </div>
+                            <div class="target-container">
+                                
+                                <div class="employee">
+                                    <h5>Employee 1</h5>
+                                    <ul>
+                                        <li>January: ₹100,000</li>
+                                        <li>February: ₹120,000</li>
+                                        <li>March: ₹90,000</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="employee">
+                                    <h5>Employee 2</h5>
+                                    <ul>
+                                        <li>January: ₹80,000</li>
+                                        <li>February: ₹110,000</li>
+                                        <li>March: ₹95,000</li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Add more employee sections as needed -->
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <h6 class="mb-0">Gold Loan Offers</h6>
+                                <a href="">Show All</a>
+                            </div>
+                            <div class="menu-container">
+                                
+                                <div class="interest-details">
+                                    <p>Principal Amount: ₹100,000</p>
+                                    <p>Interest Rate: 1% per day</p>
+                                    <p>Daily Interest: ₹1,000</p>
+                                    <p>Gold Rate on Market: ₹6,104</p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Calender</h6>
+                                <a href="">Show All</a>
+                            </div>
+                            <div id="calender"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-secondary rounded h-100 p-4">
+                            <h6 class="mb-4">Testimonial</h6>
+                            <div class="owl-carousel testimonial-carousel">
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Musraf.jpg" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Mohamed Musrath J</h5>
+                                    <p>Unity Components</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="https://www.linkedin.com/in/musrath-mohamed-089951210" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://github.com/Mohamedmusrath" target="_blank">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p class="mb-0">Multiplayer and Unity integration  with C#  :My role is to integrate and make components interconnected within the bank environment, and I also incorporate multiplayer where multiple customers are able to reside in the same bank environment and interact .</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Suman.jpeg" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Suman K</h5>
+                                    <p>Blockchain Technology</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="https://www.linkedin.com/in/suman-k-007705247" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://github.com/SUMAN834" target="_blank">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p class="mb-0">A blockchain developer/designer collaborates on creating user interfaces for decentralized applications (DApps), seamlessly integrating design principles with coding skills to produce functional digital experiences within the blockchain ecosystem and also incorporated transactions and paybills concepts by creating smart contracts and handle character customization to integrate animations into Unity, ensuring an immersive experience.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Krishnaraj.jpeg" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Krishna Raj A</h5>
+                                    <p>UI Developer/Designer</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="https://www.linkedin.com/in/krishna-raj2002" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://github.com/krishnaraj2002" target="_blank">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p class="mb-0">I'm dedicated to shaping Unity's user interfaces through C# for seamless integration and functionality. Additionally, I bring my design expertise to the forefront by creating captivating front-end layouts for websites.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Haritha.JPG" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Haritha K</h5>
+                                    <p>Backend Developer</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="https://www.linkedin.com/in/haritha-karthikeyan-23bb44258" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://github.com/har-bit/har-bit" target="_blank">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p class="mb-0">I specialize in bridging the backend database in Firebase with Unity using C#, allowing for a smooth connection, and I extend this connection to webpages.I utilize JavaScript to create webpages that handle various functions in a bank environment, such as employee dashboards, loan verification processes, chatbots, and a gold valuation tracker.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-secondary rounded h-100 p-4">
+                            <iframe class="position-relative rounded w-100 h-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.065637799153!2d80.21951121443209!3d13.082680892495714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266c2e8efcc05%3A0x4c9b5d1c2b4d0c36!2sChennai%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                            frameborder="0" allowfullscreen="" aria-hidden="false"
+                            tabindex="0" style="filter: grayscale(100%) invert(92%) contrast(83%); border: 0;"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Widget End -->
+
+
+            <!-- Footer Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary rounded-top p-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center text-sm-start">
+                            &copy; <a href="#">Metabank</a>, All Right Reserved. 
+                        </div>
+                        <div class="col-12 col-sm-6 text-center text-sm-end">
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a href="#">Black Squad</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
